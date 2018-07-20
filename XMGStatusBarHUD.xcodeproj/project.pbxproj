@@ -13,8 +13,6 @@
 		585F27241F4425850076F654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585F27221F4425850076F654 /* Main.storyboard */; };
 		585F27261F4425850076F654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585F27251F4425850076F654 /* Assets.xcassets */; };
 		585F27291F4425850076F654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585F27271F4425850076F654 /* LaunchScreen.storyboard */; };
-		585F27341F44265B0076F654 /* XMGStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 585F27311F44265B0076F654 /* XMGStatusBarHUD.bundle */; };
-		585F27351F44265B0076F654 /* XMGStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 585F27331F44265B0076F654 /* XMGStatusBarHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,9 +26,6 @@
 		585F27251F4425850076F654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		585F27281F4425850076F654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		585F272A1F4425850076F654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		585F27311F44265B0076F654 /* XMGStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XMGStatusBarHUD.bundle; sourceTree = "<group>"; };
-		585F27321F44265B0076F654 /* XMGStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGStatusBarHUD.h; sourceTree = "<group>"; };
-		585F27331F44265B0076F654 /* XMGStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGStatusBarHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +58,6 @@
 		585F27181F4425850076F654 /* XMGStatusBarHUD */ = {
 			isa = PBXGroup;
 			children = (
-				585F27301F44265B0076F654 /* XMGStatusBarHUD */,
 				585F271C1F4425850076F654 /* AppDelegate.h */,
 				585F271D1F4425850076F654 /* AppDelegate.m */,
 				585F271F1F4425850076F654 /* ViewController.h */,
@@ -83,17 +77,6 @@
 				585F271A1F4425850076F654 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		585F27301F44265B0076F654 /* XMGStatusBarHUD */ = {
-			isa = PBXGroup;
-			children = (
-				585F27311F44265B0076F654 /* XMGStatusBarHUD.bundle */,
-				585F27321F44265B0076F654 /* XMGStatusBarHUD.h */,
-				585F27331F44265B0076F654 /* XMGStatusBarHUD.m */,
-			);
-			name = XMGStatusBarHUD;
-			path = ../../XMGStatusBarHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,7 +138,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				585F27341F44265B0076F654 /* XMGStatusBarHUD.bundle in Resources */,
 				585F27291F4425850076F654 /* LaunchScreen.storyboard in Resources */,
 				585F27261F4425850076F654 /* Assets.xcassets in Resources */,
 				585F27241F4425850076F654 /* Main.storyboard in Resources */,
@@ -171,7 +153,6 @@
 			files = (
 				585F27211F4425850076F654 /* ViewController.m in Sources */,
 				585F271E1F4425850076F654 /* AppDelegate.m in Sources */,
-				585F27351F44265B0076F654 /* XMGStatusBarHUD.m in Sources */,
 				585F271B1F4425850076F654 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
